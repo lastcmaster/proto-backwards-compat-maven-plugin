@@ -50,9 +50,9 @@
   </properties>
 
   <scm>
-    <url>https://github.com/salesforce/proto-backwards-compat-maven-plugin</url>
-    <connection>scm:git:git@github.com:salesforce/proto-backwards-compat-maven-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:salesforce/proto-backwards-compat-maven-plugin.git</developerConnection>
+    <url>https://github.com/lastcmaster/proto-backwards-compat-maven-plugin</url>
+    <connection>scm:git:git@github.com:lastcmaster/proto-backwards-compat-maven-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:lastcmaster/proto-backwards-compat-maven-plugin.git</developerConnection>
   </scm>
 
   <dependencies>
@@ -173,12 +173,12 @@
 
   <distributionManagement>
     <repository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/releases</url>
+      <id>central</id>
+      <url>https://repo.proxy.ismobile.com:443/artifactory/plugins-release-local</url>
     </repository>
     <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <id>snapshots</id>
+      <url>https://repo.proxy.ismobile.com:443/artifactory/plugins-snapshot-local</url>
     </snapshotRepository>
   </distributionManagement>
 
